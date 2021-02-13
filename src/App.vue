@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <header class="w-full bg-gray-700">
+    <h2 class="text-white font-semibold px-10 py-3 shadow-lg">{{title}}</h2> 
+  </header>
+  <!-- Panel -->
+  <Panel class="w-11/12 mx-auto mt-5 border-2 border-gray-200 p-3"/>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Panel from "./components/Panel.vue";
 
 export default {
   name: "App",
+  data() {
+    return {
+      title: "TeamLineUp"
+    }
+  },
   components: {
-    HelloWorld
+    Panel
   }
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
