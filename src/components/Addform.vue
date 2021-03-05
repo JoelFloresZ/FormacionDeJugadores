@@ -3,7 +3,7 @@
         <button
         @click="toggleForm" 
         class="bg-indigo-500 px-2 py-1 rounded-md text-xs font-semibold shadow-md text-gray-100 hover:bg-indigo-700 hover:text-white focus:outline-none">
-            Add player
+            Nuevo jugador
         </button>
     
         <!-- Modal Form -->
@@ -16,8 +16,8 @@
                     <h5 class="mb-3">Registrar nuevo jugador</h5>
                     <hr>
                     <div class="w-full">
-                        <label for="name">Name:</label>
-                        <input type="text" name="name"
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" placeholder="Nombre del jugador"
                         class="w-full border border-indigo-400 rounded-sm px-2 py-1 placeholder-gray-500"
                         id="name"
                         v-model="player.name">
@@ -25,7 +25,7 @@
 
                     <div>
                         <label for="avatar">Avatar</label>
-                        <input type="url" name="avatar" 
+                        <input type="url" name="avatar" placeholder="Ingrese la url de su avatar"
                         class="w-full border border-indigo-400 rounded-sm px-2 py-1 placeholder-gray-500"
                         id="avatar"
                         v-model="player.url">
@@ -36,7 +36,7 @@
                     class="mt-3 mr-2 px-3 py-1 border-2 border-gray-400 rounded-md text-gray-600 font-semibold shadow-md hover:bg-gray-500 hover:text-white hover:border-gray-500">
                         CANCELAR
                     </button>
-                    <button type="submit" class="mt-3 px-3 py-1 rounded-md text-white font-semibold shadow-md bg-indigo-500 hover:bg-indigo-800">ADD</button>
+                    <button type="submit" class="mt-3 px-3 py-1 rounded-md text-white font-semibold shadow-md bg-indigo-500 hover:bg-indigo-800">Registrar</button>
                 </form>
             </div>
         </div>

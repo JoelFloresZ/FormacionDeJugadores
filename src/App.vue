@@ -13,7 +13,7 @@ export default {
   name: "App",
   data() {
     return {
-      title: "TeamLineUp"
+      title: "FormaciónDeJugadores"
     }
   },
   components: {
