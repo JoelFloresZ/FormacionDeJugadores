@@ -1,8 +1,10 @@
 # Team lineup
 
-# 
-Este es una app que permite la alineación de un equipo,
-donde el manager del equipo puede ingresar sus juadores en el equipo, para despues este, puede acomodar a sus jugadores respecto a la alineacion que el decida y asi saber que jugar esta ocupando ya un puesto en el terreno de juego.
+# Esta es una aplicación que fue desarrollada con vue js, la cual consiste en la formación de jugadores de fútbol, en donde el manejador del equipo cuenta con las funciones de registrar jugadores, quitar jugadores y colocar los jugadores en el terreno de juego como remover jugadores del terreno con el fin de formar una alineación de juego.
+
+# Para los avatares que utilizó en la aplicación son tomados del API de 
+https://avatars.dicebear.com/
+
 
 ## Project setup
 ```
