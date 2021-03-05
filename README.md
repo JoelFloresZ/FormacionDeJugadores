@@ -1,4 +1,8 @@
-# manager-sport
+# Team lineup
+
+# 
+Este es una app que permite la alineación de un equipo,
+donde el manager del equipo puede ingresar sus juadores en el equipo, para despues este, puede acomodar a sus jugadores respecto a la alineacion que el decida y asi saber que jugar esta ocupando ya un puesto en el terreno de juego.
 
 ## Project setup
 ```
